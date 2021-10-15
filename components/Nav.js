@@ -1,7 +1,7 @@
 import requests from '../utils/requests'
 import { useRouter } from 'next/router'
 
-const Nav = () => {
+function Nav() {
   const router = useRouter()
 
   return(

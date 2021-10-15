@@ -10,7 +10,7 @@ import {
 
 import HeaderItem from './HeaderItem'
 
-const Header = () => {
+function Header() {
   return(
     <header className='flex flex-col items-center justify-between h-auto m-5 sm:flex-row'>
       <div className='flex flex-grow max-w-2xl justify-evenly'>
